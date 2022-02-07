@@ -20,32 +20,26 @@ body {
   margin-bottom: 70px;
   padding: 6px;
 }
-
 .progress:hover .fill {
   animation-play-state: running;
 }
-
 .progress:hover .number {
   transform: translateY(-40px);
   visibility: visible;
   opacity: 1;
 }
-
 .progress:nth-child(1) .fill {
   background-color: #ff0000;
   width: 35%;
 }
-
 .progress:nth-child(2) .fill {
-  background-color: #008000;
+  background-color: #60740c;
   width: 65%;
 }
-
 .progress:nth-child(3) .fill {
-  background-color: #0000ff;
+  background-color: #0f0872;
   width: 95%;
 }
-
 .progress .number {
   position: absolute;
   right: 0;
@@ -58,7 +52,6 @@ body {
   visibility: hidden;
   opacity: 0;
 }
-
 .progress .fill {
   background: linear-gradient(45deg, rgba(255, 255, 255, 0.5) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.5) 75%, transparent 75%, transparent);
   background-size: 40px;
@@ -72,3 +65,5 @@ body {
     background-position: 40px 0;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
